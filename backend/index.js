@@ -16,7 +16,7 @@ app.use((req,res,next)=>{
 app.use(express.json());
 
 // Available Route
-app.use('/api', require('./routes/CreateUser'));
+app.use('/api/auth', require('./routes/auth'));
 
 
 app.listen(port,()=>{
