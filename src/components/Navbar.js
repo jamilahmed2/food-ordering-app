@@ -18,11 +18,11 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/login">Login</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link btn-primary" to="/signup">Sign up</Link>
+                        </li>
                     </ul>
-                    <form className="d-flex my-2 my-lg-0">
-                        <input className="form-control me-sm-2" type="text" placeholder="Search"/>
-                        <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+
                 </div>
           </div>
         </nav>
