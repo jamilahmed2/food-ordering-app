@@ -17,6 +17,7 @@ app.use(express.json());
 
 // Available Route
 app.use('/api/auth', require('./routes/auth'));
+app.use('/api/data', require('./routes/data'));
 
 
 app.listen(port,()=>{
